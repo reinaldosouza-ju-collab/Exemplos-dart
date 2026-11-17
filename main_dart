@@ -1,0 +1,22 @@
+void main() {
+  // isso é um comentário
+  var nome = "Jefferson";
+  int idade = 16;
+  double altura = 1.66;
+  bool estudante = true;
+
+  print('meu nome é $nome');
+  print('Idade $idade anos');
+  print('Ano que vem terá ${idade + 1} anos');
+  print('Altura $altura m | Estudante: $estudante');
+
+  nome = "João";
+  print("Segundo nome $nome");
+
+  //constrantes
+  const pi = 3.1159;
+  final anoNascimento = 2010;
+
+  pi = 5;
+  anoNascimento = 2025;
+}
